@@ -1,0 +1,92 @@
+/* ============================================================
+   SPEEDTECH SOLUTIONS
+   Global Styles
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --blue: #0756a3;
+  --blue-dark: #06396c;
+  --blue-light: #eaf4ff;
+
+  --orange: #f47721;
+  --orange-light: #fff1e7;
+
+  --green: #159447;
+  --green-light: #eaf8ef;
+
+  --maroon: #761f38;
+  --purple: #6c35a5;
+
+  --dark: #10213a;
+  --muted: #66758a;
+  --light: #f6f9fc;
+  --white: #ffffff;
+
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+
+  color: var(--dark);
+  background: var(--white);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+   RESET
+   ============================================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background: var(--white);
+  color: var(--dark);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  border: 0;
+}
+
+::selection {
+  background: var(--blue);
+  color: var(--white);
+}

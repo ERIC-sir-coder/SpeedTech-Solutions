@@ -1,0 +1,20 @@
+[
+  {
+    "id": "REQ-001",
+    "name": "Eric Mokaya",
+    "phone": "+254740786655",
+    "service": "Monthly Internet",
+    "package": "Home Connect",
+    "packageType": "HOME",
+    "speedMbps": 15,
+    "price": 1200,
+    "customSpeed": null,
+    "customBudget": null,
+    "location": "00100",
+    "installationDate": null,
+    "message": "I would like to install internet in my home.",
+    "status": "New",
+    "createdAt": "2026-09-30T12:00:00.000Z",
+    "updatedAt": "2026-09-30T12:00:00.000Z"
+  }
+]
